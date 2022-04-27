@@ -1352,7 +1352,7 @@ func (s *ListWatchesResponse) MarshalJSON() ([]byte, error) {
 type Location struct {
 	// Index: The index of an item in the form. This must be in the range
 	// [0..*N*), where *N* is the number of items in the form.
-	Index int64 `json:"index,omitempty"`
+	Index int64 `json:"index"`
 
 	// ForceSendFields is a list of field names (e.g. "Index") to
 	// unconditionally include in API requests. By default, fields with
